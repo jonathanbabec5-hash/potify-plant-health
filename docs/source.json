@@ -1,0 +1,8 @@
+{
+  "project": "Plant Health Journal",
+  "kind": "Application source",
+  "source": "potify-plant-health at `360fc24d570212c2c6f07c9c6cdbd73cef162f41`. Complete application and build scripts, excluding hosted site identity.",
+  "scope": "Personal device histories and forecasts require their own verification. This export is application source.",
+  "prepared": "2026-11-25",
+  "adaptation": "The portable build writes the Worker bundle and omits the host-specific manifest copy."
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#141913">
+  <meta name="description" content="Track soil readings and plant growth together with POTIFY Plant Health.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="icon" href="/assets/mark.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/touch.png">
+  <link rel="manifest" href="/app.webmanifest">
+  <link rel="stylesheet" href="/styles.css">
+  <title>POTIFY Plant Health</title>
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <aside class="sidebar" aria-label="Main navigation">
+    <a class="brand" href="#overview" aria-label="POTIFY Plant Health overview">
+      <img src="/assets/mark.svg" alt="" width="42" height="42">
+      <span><strong>POTIFY</strong><small>PLANT HEALTH</small></span>
+    </a>
+    <nav id="desktop-nav" class="desktop-nav"></nav>
+    <div class="sidebar-foot">
+      <div class="sidebar-state" id="sidebar-state"></div>
+      <a href="https://potifywebsite.com" target="_blank" rel="noopener">Seed → Soil → Solana</a>
+    </div>
+  </aside>
+  <header class="mobile-brand">
+    <a class="brand" href="#overview" aria-label="POTIFY Plant Health overview">
+      <img src="/assets/mark.svg" alt="" width="35" height="35">
+      <span><strong>POTIFY</strong><small>PLANT HEALTH</small></span>
+    </a>
+    <button type="button" class="source-chip" id="mobile-source" data-action="devices"></button>
+  </header>
+  <main id="content" tabindex="-1" class="main">
+    <div class="topbar" id="topbar"></div>
+    <div id="view" aria-busy="true"></div>
+    <footer class="mobile-foot">Seed → Soil → Solana</footer>
+  </main>
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Main navigation"></nav>
+  <dialog id="modal" aria-labelledby="modal-title"></dialog>
+  <div id="notice" class="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript">Enable JavaScript to use POTIFY Plant Health.</p></noscript>
+</body>
+</html>
