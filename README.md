@@ -2,6 +2,14 @@
 
 [Complete repository directory tree](docs/DIRECTORY.md)
 
+## Can tomorrow’s grower find yesterday’s note?
+
+A timeline earns its place when someone can come back to a note and remember exactly what they saw before they changed anything. Plant Health Journal keeps observations, feeding and forecasts in different views so a prediction does not quietly become part of the plant’s history.
+
+Look at the [device storage layer](app/storage.js) beside the [workspace model](app/model.js). IndexedDB keeps the local workspace in the browser. Reloading the same profile and recovering a record on a new phone are two different promises; only the first belongs in this small check.
+
+Create a fictional plant, add one dated observation and reload. Record whether the exact note returns under the right plant. Keep personal grow histories off GitHub. If portability matters, describe the export-and-restore check that would convince you before relying on it.
+
 **Application source.** Help a grower see how conditions and care change over a plant's lifetime.
 
 ### Setup and usage
