@@ -1,5 +1,13 @@
 # Plant Health Journal
 
+## Find your way in
+
+| If you are… | Start here | Try this |
+| --- | --- | --- |
+| A grower | [Start a local journal](#setup-and-usage) | Add a fictional observation and reload in the same browser. |
+| A developer | [Inspect device storage](app/storage.js) | See how the local workspace is stored. |
+| A plant-care explorer | [Visit Plant Doctor](https://github.com/jonathanbabec5-hash/potify-plant-doctor) | Explore a separate diagnostic tool. |
+
 [Complete repository directory tree](docs/DIRECTORY.md)
 
 ## Can tomorrow’s grower find yesterday’s note?
